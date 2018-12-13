@@ -22,6 +22,10 @@ label start:
     scene anime-classroom
     with fade
 
+    "Remeber class, there's an upcoming project that you need to present it's about showing you own program."
+    "Make sure to make your program so you can present it to class."
+    "Also this is to show that you are an actual programmer."
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -33,6 +37,7 @@ label start:
     # directory.
 
     show hana
+    with dissolve
 
     # These display lines of dialogue.
 
